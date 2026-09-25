@@ -1,0 +1,136 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #edebf3;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 16px;
+}
+
+.frame {
+  background: #2e1a3e;
+  border-radius: 16px;
+  padding: 36px 26px;
+  text-align: center;
+  color: #eeedfe;
+  width: 340px;
+  max-width: 92vw;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+.brand-row {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 17px;
+  color: #cecbf6;
+  margin-bottom: 28px;
+}
+
+.tagline {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  color: #afa9ec;
+  margin: 0 0 22px;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 500;
+  margin: 0 0 4px;
+  color: #f5f4fe;
+}
+
+h1.italic {
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #eeedfe;
+  margin-bottom: 22px;
+}
+
+.description {
+  font-size: 13px;
+  color: #cecbf6;
+  line-height: 1.7;
+  margin: 0 0 30px;
+  padding: 0 6px;
+}
+
+hr {
+  border: none;
+  border-top: 0.5px solid #534ab7;
+  margin: 0 0 26px;
+}
+
+.avatar {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: #3c3489;
+  margin: 0 auto 12px;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.owner-label {
+  font-size: 12px;
+  color: #cecbf6;
+  margin: 0 0 28px;
+}
+
+.cta-line {
+  font-size: 13px;
+  font-style: italic;
+  color: #cecbf6;
+  margin: 0 0 14px;
+}
+
+.cta-button {
+  background: #afa9ec;
+  color: #26215c;
+  border-radius: 8px;
+  padding: 13px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 22px;
+  text-decoration: none;
+}
+
+.social-links {
+  font-size: 12px;
+  color: #afa9ec;
+}
+
+.social-links a {
+  text-decoration: underline;
+  color: #afa9ec;
+}
+
+.sep {
+  color: #534ab7;
+  margin: 0 8px;
+}
